@@ -199,4 +199,7 @@ input:hover{
     background-color: #c3c3c3;
     
 }
-
+img {
+    border-right: 1.8px solid #636363;
+    border-bottom: 1.8px solid #636363;
+}
