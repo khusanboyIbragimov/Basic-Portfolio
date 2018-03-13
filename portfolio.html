@@ -5,65 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps" rel="stylesheet">
+    <title>My Profile</title>
 </head>
 
 <body>
-    <header>
-        <div class="header">
-            <div id="header-div">
-                <div id="header-name">
-                    Khusanboy
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                        <li class="stick">|</li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li class="stick">|</li>
-                        <li>
-                            <a href="index.html">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">
+                Khusanboy
+            </a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
     </header>
-    <section class="content">
-        <div class="title">Portfolio</div>
-        <hr>
-        <div class="portfolio-content">
-            <div class="imageText">
-                <img class="portfolio-img" src="assets/images/image1.jpg" alt="image1">
-                <div class="img-txt1">Hangman</div>
-            <!-- </div> -->
-            <!-- <div> -->
-                <img class="portfolio-img" src="assets/images/image2.jpg" alt="image2">
-                <div class="img-txt2">RPG Game</div>
-            <!-- </div> -->
-            <!-- <div> -->
-                <img class="portfolio-img" src="assets/images/image3.jpg" alt="image3">
-                <div class="img-txt3">Ubuntu</div>
-            <!-- </div> -->
-            <!-- <div> -->
-                <img class="portfolio-img" src="assets/images/image4.jpg" alt="image4">
-                <div class="img-txt4">AI</div>
-            <!-- </div> -->
-            <!-- <div> -->
-                <img class="portfolio-img" src="assets/images/image5.jpg" alt="image5">
-                <div class="img-txt5">Trivia Game</div>
-            </div>
-        </div>
-    </section>
-    <footer>Rutgers Bootcamp 2018</footer>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
 
+            <div class="work">
+                <img src="assets/images/image1.jpg" alt="hangman">
+
+                <h3>Hangman</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/image2.jpg" alt="RPG Game">
+
+                <h3>RPG Game</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/image3.jpg" alt="Ubuntu">
+
+                <h3>Ubuntu</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/image4.jpg" alt="AI">
+
+                <h3>AI</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/image5.jpg" alt="Trivia Game">
+
+                <h3>Trivia Game</h3>
+            </div>
+
+        </section>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                Rutgers Bootcamp 2018
+            </div>
+        </footer>
 </body>
 
 </html>
